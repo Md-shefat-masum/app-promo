@@ -1,0 +1,1252 @@
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media ( min-width: 1px) and ( max-width: 309px) {
+    /*    header part start*/
+    .header-parallax {
+        display: none;
+    }
+    #header img {
+        display: none;
+    }
+    #aboutUs img {
+        display: none;
+    }
+    h1 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+
+    /*    header part end*/
+}
+
+@media (min-width: 310px) and (max-width: 575px) {
+    .header-parallax {
+        display: none;
+    }
+    #header {
+        padding-top: 70px;
+    }
+    #header .banner-content .row .col-md-5 {
+        display: none;
+    }
+    #header .banner-content .row .col-md-5 .iphone-img img {
+        display: none;
+    }
+    p {
+        font-size: 13px;
+        line-height: 20px;
+        padding-top: 20px;
+    }
+    h6 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    h5 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    /*    header part start*/
+    #header .banner-content .row .col-md-7 .banner-Left-Part h1 {
+        text-align: center;
+        font-size: 25px;
+        line-height: 31px;
+        padding-bottom: 0px;
+    }
+    #header .banner-content .row .col-md-7 .banner-Left-Part p {
+        padding-bottom: 10%;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #header .banner-content .row .col-md-7 .banner-Left-Part a {
+        margin-bottom: 20px;
+        width: 185px;
+    }
+    #header nav {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #header .banner-content .row .col-md-7 {
+        overflow: hidden;
+        padding: 0 15px;
+    }
+    #header .banner-content .row .col-md-7 .banner-Left-Part a {
+        margin-bottom: 66px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    /*    header part end*/
+    /*    about us part start*/
+    #aboutUs {
+        padding: 50px 0px;
+    }
+    #aboutUs .container .row .col-md-5 .about-left-part {
+        height: 235px;
+        width: 100%;
+        padding: 20px 0px;
+    }
+    #aboutUs .container .row .col-md-5 .about-left-part .about-mobile-1 {
+        width: 35%;
+        position: absolute;
+        top: 20%;
+        left: 15%;
+    }
+    #aboutUs .container .row .col-md-5 .about-left-part .about-mobile-2 {
+        width: 35%;
+        right: 15%;
+        top: 0%;
+        position: absolute;
+    }
+    #aboutUs .container .row .col-md-5 .about-left-part .about-mobile-3 {
+        width: 35%;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #aboutUs .container .row .col-md-5 .about-right-part {
+        padding: 20px 0px;
+        padding-bottom: 0;
+    }
+    #aboutUs .container .row .col-md-5 .about-right-part h6 {
+        font-size: 16px;
+    }
+    #aboutUs .container .row .col-md-5 .about-right-part h5 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    #aboutUs .container .row .col-md-5 .about-right-part p {
+        font-size: 13px;
+        line-height: 20px;
+        padding-top: 20px;
+    }
+    /*    about us part end*/
+    /*    out app service part start*/
+    #ourAppPart {
+        padding: 50px 0px;
+    }
+    #ourAppPart .container .col-md-9 .our-app-service-heading h6 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #ourAppPart .container .col-md-9 .our-app-service-heading h5 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    #ourAppPart .container .col-md-9 .our-app-service-heading p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 15px;
+    }
+    #ourAppPart .container .app-content .col-md-6 .row .col-6 .app-ser-body h6 {
+        font-family: Montserrat, sans-serif;
+        color: #202020;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+        padding-top: 20px;
+        letter-spacing: 0;
+    }
+    #ourAppPart .container .app-content .col-md-6 .row .col-6 .app-ser-body p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    #ourAppPart .container .app-content .col-md-6 .app-service-left-img img {
+        margin-top: 10%;
+        width: 80%;
+    }
+    #ourAppPart .container .app-content .col-md-6 .row .col-6 .app-ser-icon {
+        height: 30px;
+        width: 30px;
+        background-size: 100% 100%;
+    }
+
+    #ourAppPart .container .app-content .col-md-6 .row .col-6 .app-ser-icon img {
+        width: 50px;
+    }
+    #ourAppPart .container .app-content .col-md-6 .row .col-6 .app-ser-body {
+        margin-top: 25px;
+    }
+    /*    out app service part end*/
+    /*    our client testimonial part start*/
+    #clientTestimonial {
+        background-size: 300% 100%;
+    }
+    #clientTestimonial .container .col-md-5 .client-testimonial-heading h6 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #clientTestimonial .container .col-md-5 .client-testimonial-heading h5 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    #clientTestimonial .container .col-md-4 .client-details p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    #clientTestimonial .container .row .col-md-4 .client-body .client-details a {
+        font-size: 13px;
+    }
+    /*    parallax*/
+    #clientTestimonial .header-parallax ul li:nth-child(3) {
+        position: absolute;
+        left: 120%;
+        top: 5%;
+    }
+
+    /*    our client testimonial part end*/
+    /*    app showcase part start*/
+    #AppShowCasePart {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    #AppShowCasePart p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #AppShowCasePart h6 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    #AppShowCasePart h5 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #AppShowCasePart .appSlider {
+        padding: 70px 0px;
+    }
+    #AppShowCasePart .appSlider .appImg img {
+        height: 84%;
+        width: 75%;
+        margin: 0 auto;
+    }
+    #AppShowCasePart .appSlider .slider-frame {
+        height: 96%;
+        width: 88%;
+        top: 44%;
+        left: 50%;
+    }
+    /*    app showcase part end*/
+    /*    ask question part start*/
+    #ask-question h5 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #ask-question h6 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #ask-question p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 15px;
+    }
+    #ask-question .container .ask_left_content {
+        padding: 50px 0px;
+    }
+    #ask-question .container .ask_left_content h6 {
+        line-height: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #ask-question .panel-title > a:before {
+        line-height: 40px;
+    }
+    #ask-question .container .ask_right_content {
+        height: 120%;
+    }
+    /*    ask question part end*/
+    /*    pricing plan start*/
+    #pricingPlan {
+        background-size: 500% 500%;
+        padding: 50px 0px;
+    }
+    #pricingPlan .container .priceRate .col-md-3 .pricingBody {
+        padding: 25px 0px;
+        width: 250px;
+        margin: 0 auto;
+        border-left: 1px white;
+        border-right: 1px white;
+    }
+    #pricingPlan h5 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    #pricingPlan h6 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    #pricingPlan p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 15px;
+    }
+    #pricingPlan .container .priceRate .col-md-3 .pricingBody .p1 {
+        padding-top: 25px;
+    }
+    #pricingPlan .container .priceRate .col-md-3 .pricingBody a {
+        width: 135px;
+    }
+    /*    pricing plan end*/
+    /*    our client part start*/
+    #ourClientPart {
+        padding: 50px 0px;
+        ;
+    }
+    #ourClientPart h5 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    #ourClientPart h6 {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    #ourClientPart p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 15px;
+    }
+    #ourClientPart .container-fluid .row .col-md-4 {
+        padding-left: 10%;
+        padding-top: 40px;
+    }
+    #ourClientPart .container-fluid .row .col-md-4 a {
+        width: 195px;
+        margin-top: 35px;
+    }
+    #ourClientPart .container-fluid .row .col-md-7 .row .col-md-4 .our-client h6 {
+        letter-spacing: 0;
+        line-height: 20px;
+    }
+    /*    our client part end*/
+    /*    contact us part start*/
+    #contactUs {
+        padding: 50px 0px;
+        ;
+    }
+    #contactUs h5 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    #contactUs h6 {}
+    #contactUs p {}
+    #contactUs .container .row .col-md-12 .row .col-md-5 .contact-box {
+        padding: 30px;
+    }
+    #contactUs .container .row .col-md-12 .row .col-md-5 .contact-box h3 {
+        font-size: 24px;
+    }
+    #contactUs .container .row .col-md-12 .row .col-md-5 .contact-box form input,
+    #contactUs .container .row .col-md-12 .row .col-md-5 .contact-box form textarea {
+        margin-bottom: 10px;
+    }
+    #contactUs .container .row .col-md-12 .row .col-md-5 .contact-box form .row a {
+        margin-left: 50%;
+    }
+    #contactUs .container .row .col-md-12 .row .col-md-5 .contact-box form .row .formP1 {
+        padding-top: 15px;
+    }
+    /*    contact us part end*/
+    /*    footer part start*/
+    #footer {
+        padding: 25px 0px;
+    }
+    #footer .container .col-md-8 .footer-logo {
+        padding-bottom: 20px;
+    }
+    #footer .container .col-md-8 .row p {
+        font-size: 14px;
+    }
+    #footer .container .col-md-8 p {
+        font-size: 13px;
+    }
+    #footer .container .col-md-8 .row {
+        padding-bottom: 15px;
+    }
+    /*    footer part end*/
+}
+
+/*about us left part*/
+
+@media (min-width: 415px) and (max-width: 574px) {
+    /*    about us part start*/
+    #aboutUs {
+        padding: 50px 0px;
+    }
+    #aboutUs .container .row .col-md-5 .about-left-part {
+        height: 260px;
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 460px) and (max-width: 574px) {
+    /*    about us part start*/
+    #aboutUs {
+        padding: 50px 0px;
+    }
+    #aboutUs .container .row .col-md-5 .about-left-part {
+        height: 350px;
+        width: 100%;
+    }
+
+}
+
+/*app showcase part*/
+
+@media (min-width: 340px) and (max-width: 480px) {
+    #AppShowCasePart .appSlider .appImg {
+        height: 250px;
+    }
+    #AppShowCasePart .appSlider .appImg img {
+        height: 100%;
+        width: 45%;
+    }
+    #AppShowCasePart .appSlider .slider-frame {
+        width: 55%;
+        top: 50%;
+        height: 105%;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 575px) {
+    #AppShowCasePart .appSlider .appImg {
+        height: 250px;
+    }
+    #AppShowCasePart .appSlider .appImg img {
+        height: 100%;
+        width: 100%;
+    }
+    #AppShowCasePart .appSlider .slider-frame {
+        width: 41%;
+        top: 50%;
+        height: 105%;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 575px) and (max-width: 767px) {
+    /*    header part start*/
+    .header-parallax {
+        display: none;
+    }
+
+    #header .banner-content .row .col-md-7 .banner-Left-Part h1 {
+        text-align: center;
+        font-size: 43px;
+        line-height: 56px;
+        padding-bottom: 0px;
+    }
+    #header {
+        padding-top: 50px;
+    }
+    #header .banner-content .row .col-md-7 .banner-Left-Part p {
+        padding-bottom: 10%;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #header .banner-content .row .col-md-7 .banner-Left-Part a {
+        margin-bottom: 20px;
+    }
+    #header nav {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #header .banner-content .row .col-md-7 {
+        overflow: hidden;
+        padding: 0 15px;
+    }
+    #header .banner-content .row .col-md-7 .banner-Left-Part a {
+        margin-bottom: 66px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    #header .banner-content .row .col-md-5 {
+        display: none;
+    }
+    /*    header part end*/
+    /*    about us part start*/
+    #aboutUs {
+        padding: 50px 0px;
+    }
+    #aboutUs .container .row .col-md-5 .about-left-part {
+        padding: 235px;
+    }
+    #aboutUs .container .row .col-md-5 .about-left-part .about-mobile-1 {
+        width: 238px;
+        height: 485px;
+        position: absolute;
+        top: 126px;
+        left: 0;
+    }
+    #aboutUs .container .row .col-md-5 .about-left-part .about-mobile-2 {
+        width: 250px;
+        height: 485px;
+        right: 45px;
+        top: -21px;
+        position: absolute;
+    }
+    #aboutUs .container .row .col-md-5 .about-left-part .about-mobile-3 {
+        width: 250px;
+        position: absolute;
+        height: 485px;
+        top: 43px;
+        left: 44%;
+        transform: translateX(-50%);
+    }
+    /*    about us part end*/
+    /*    out app service part start*/
+    #ourAppPart {
+        padding: 50px 0px;
+    }
+    #ourAppPart .container .col-md-9 .our-app-service-heading h6 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #ourAppPart .container .col-md-9 .our-app-service-heading h5 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    #ourAppPart .container .col-md-9 .our-app-service-heading p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 15px;
+    }
+    #ourAppPart .container .app-content .col-md-6 .row .col-6 .app-ser-body h6 {
+        font-family: Montserrat, sans-serif;
+        color: #202020;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+        padding-top: 20px;
+        letter-spacing: 0;
+    }
+    #ourAppPart .container .app-content .col-md-6 .row .col-6 .app-ser-body p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #ourAppPart .container .app-content .col-md-6 .app-service-left-img img {
+        margin-top: 10%;
+        width: 80%;
+    }
+    #ourAppPart .container .app-content .col-md-6 .row .col-6 .app-ser-icon {
+        height: 30px;
+        width: 119px;
+        background-size: 100% 100%;
+    }
+
+    #ourAppPart .container .app-content .col-md-6 .row .col-6 .app-ser-icon img {
+        width: 50px;
+    }
+    #ourAppPart .container .app-content .col-md-6 .row .col-6 .app-ser-body {
+        margin-top: 25px;
+    }
+    /*    out app service part end*/
+    /*    our client testimonial part start*/
+    #clientTestimonial {
+        background-size: 300% 100%;
+    }
+    #clientTestimonial .container .col-md-5 .client-testimonial-heading h6 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #clientTestimonial .container .col-md-5 .client-testimonial-heading h5 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    #clientTestimonial .container .col-md-4 .client-details p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    #clientTestimonial .container .row .col-md-4 .client-body .client-details a {
+        font-size: 13px;
+    }
+    /*    parallax*/
+    #clientTestimonial .header-parallax ul li:nth-child(3) {
+        position: absolute;
+        left: 120%;
+        top: 5%;
+    }
+
+    /*    our client testimonial part end*/
+    /*    app showcase part start*/
+    #AppShowCasePart {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    #AppShowCasePart p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #AppShowCasePart h6 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    #AppShowCasePart h5 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #AppShowCasePart .appSlider {
+        padding: 70px 0px;
+    }
+    #AppShowCasePart .appSlider .appImg img {
+        height: 84%;
+    }
+    #AppShowCasePart .appSlider .slider-frame {
+        height: 96%;
+        width: 41%;
+        top: 44%;
+    }
+    /*    app showcase part end*/
+    /*    ask question part start*/
+    #ask-question h5 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #ask-question h6 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    #ask-question p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 15px;
+    }
+    #ask-question .container .ask_left_content h6 {
+        line-height: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #ask-question .panel-title > a:before {
+        line-height: 40px;
+    }
+    #ask-question .container .ask_right_content {
+        height: 150%;
+    }
+    /*    ask question part end*/
+    /*    pricing plan start*/
+    #pricingPlan {
+        background-size: 500% 500%;
+    }
+    #pricingPlan .container .priceRate .col-md-3 .pricingBody {
+        padding: 25px 0px;
+        width: 250px;
+        margin: 0 auto;
+        border-left: 1px white;
+        border-right: 1px white;
+    }
+    #pricingPlan .container .priceRate .col-md-3 .pricingBody .p1 {
+        padding-top: 25px;
+    }
+    #pricingPlan h5 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #pricingPlan h6 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    #pricingPlan p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 15px;
+    }
+    #pricingPlan .container .priceRate .col-md-3 .pricingBody a {
+        width: 135px;
+    }
+    /*    pricing plan end*/
+    /*    our client part start*/
+    #ourClientPart {
+        padding: 50px 0px;
+        ;
+    }
+    #ourClientPart h5 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    #ourClientPart h6 {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    #ourClientPart p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 15px;
+    }
+    #ourClientPart .container-fluid .row .col-md-4 a {
+        width: 195px;
+        margin-top: 35px;
+    }
+    #ourClientPart .container-fluid .row .col-md-7 .row .col-md-4 .our-client h6 {
+        letter-spacing: 0;
+        line-height: 20px;
+    }
+    /*    our client part end*/
+    /*    contact us part start*/
+    #contactUs {
+        padding: 50px 0px;
+        ;
+    }
+    #contactUs h5 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    #contactUs h6 {}
+    #contactUs p {}
+    #contactUs .container .row .col-md-12 .row .col-md-5 .contact-box {
+        padding: 30px;
+    }
+    #contactUs .container .row .col-md-12 .row .col-md-5 .contact-box h3 {
+        font-size: 24px;
+    }
+    #contactUs .container .row .col-md-12 .row .col-md-5 .contact-box form input,
+    #contactUs .container .row .col-md-12 .row .col-md-5 .contact-box form textarea {
+        margin-bottom: 10px;
+    }
+    #contactUs .container .row .col-md-12 .row .col-md-5 .contact-box form .row a {
+        margin-left: 50%;
+    }
+    #contactUs .container .row .col-md-12 .row .col-md-5 .contact-box form .row .formP1 {
+        padding-top: 15px;
+    }
+    /*    contact us part end*/
+    /*    footer part start*/
+    #footer {
+        padding: 25px 0px;
+    }
+    #footer .container .col-md-8 .footer-logo {
+        padding-bottom: 20px;
+    }
+    #footer .container .col-md-8 .row p {
+        font-size: 14px;
+    }
+    #footer .container .col-md-8 p {
+        font-size: 13px;
+    }
+    #footer .container .col-md-8 .row {
+        padding-bottom: 15px;
+    }
+    /*    footer part end*/
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 992px) {
+    /*    header part start*/
+    #header nav .container .navbar-collapse .social_icons {
+        display: none;
+    }
+    #header .banner-content .row .col-md-7 .banner-Left-Part h1 {
+        font-size: 45px;
+        font-weight: 400;
+        line-height: 57px;
+    }
+    #header .banner-content .row .col-md-7 .banner-Left-Part p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #header .banner-content .row .col-md-5 .iphone-img img {
+        width: 85%;
+        bottom: -10%;
+    }
+    #header .header-parallax {
+        overflow: hidden;
+    }
+    .navbar-expand-md .navbar-nav {
+        padding-left: 40px;
+    }
+    .displaynone {
+        display: none;
+    }
+    #header .banner-content .row .col-md-7 .banner-Left-Part h1 {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 36px;
+    }
+    #header .banner-content .row .col-md-7 .banner-Left-Part h1 {
+        padding-bottom: 0px;
+    }
+    #header .banner-content .row .col-md-7 .banner-Left-Part p {
+        padding-bottom: 10%;
+    }
+    #header .banner-content .row .col-md-7 .banner-Left-Part {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #header .banner-content .row .col-md-7 .banner-Left-Part a {
+        width: 195px;
+    }
+    /*    header part end*/
+    /*    about us part start*/
+    #aboutUs {
+        padding: 50px 0px;
+        padding-bottom: 0;
+    }
+    #aboutUs .container .row .col-md-5 .about-left-part .about-mobile-1 {
+        width: 138px;
+        height: 485px;
+        position: absolute;
+        top: 126px;
+        left: 0;
+    }
+    #aboutUs .container .row .col-md-5 .about-left-part .about-mobile-2 {
+        width: 138px;
+        height: 485px;
+        left: 30%;
+        top: 38px;
+        position: absolute;
+    }
+    #aboutUs .container .row .col-md-5 .about-left-part .about-mobile-3 {
+        width: 138px;
+        position: absolute;
+        height: 485px;
+        top: 83px;
+        left: 40%;
+        transform: translateX(-50%);
+    }
+
+    #aboutUs .container .row .col-md-5 .about-right-part h6 {
+        font-size: 16px;
+    }
+    #aboutUs .container .row .col-md-5 .about-right-part h5 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    #aboutUs .container .row .col-md-5 .about-right-part p {
+        font-size: 13px;
+        line-height: 20px;
+        padding-top: 20px;
+    }
+    /*    parallax*/
+    #aboutUs .about-left-part .header-parallax ul li:nth-child(3) {
+        position: absolute;
+        left: 185px;
+        bottom: 0;
+    }
+    /*    about us part end*/
+    /*    out app service part start*/
+    #ourAppPart {
+        padding: 50px 0px;
+    }
+    #ourAppPart .container .col-md-9 .our-app-service-heading h6 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #ourAppPart .container .col-md-9 .our-app-service-heading h5 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    #ourAppPart .container .col-md-9 .our-app-service-heading p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 15px;
+    }
+    #ourAppPart .container .app-content .col-md-6 .row .col-6 .app-ser-body h6 {
+        font-family: Montserrat, sans-serif;
+        color: #202020;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    #ourAppPart .container .app-content .col-md-6 .row .col-6 .app-ser-body p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #ourAppPart .container .app-content .col-md-6 .row .col-6 .app-ser-icon {
+        height: 30px;
+        width: 119px;
+        background-size: 100% 100%;
+    }
+
+    #ourAppPart .container .app-content .col-md-6 .row .col-6 .app-ser-icon img {
+        width: 50px;
+    }
+    #ourAppPart .container .app-content .col-md-6 .row .col-6 .app-ser-body {
+        margin-top: 25px;
+    }
+    /*    out app service part end*/
+    /*    our client testimonial part start*/
+    #clientTestimonial {
+        background-size: 300% 100%;
+    }
+    #clientTestimonial .container .col-md-5 .client-testimonial-heading h6 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #clientTestimonial .container .col-md-5 .client-testimonial-heading h5 {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    #clientTestimonial .container .col-md-4 .client-details p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    /*    parallax*/
+    #clientTestimonial .header-parallax ul li:nth-child(3) {
+        position: absolute;
+        left: 120%;
+        top: 5%;
+    }
+
+    /*    our client testimonial part end*/
+    /*    app showcase part start*/
+    #AppShowCasePart {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    #AppShowCasePart p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 15px;
+    }
+    #AppShowCasePart h6 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    #AppShowCasePart h5 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #AppShowCasePart .appSlider {
+        padding: 70px 0px;
+    }
+    #AppShowCasePart .appSlider .appImg {
+        height: 180px;
+    }
+    #AppShowCasePart .appSlider .appImg img {
+        height: 100%;
+    }
+    #AppShowCasePart .appSlider .slider-frame {
+        height: 92%;
+        width: 20%;
+        top: 50%;
+    }
+    /*    app showcase part end*/
+    /*    ask question part start*/
+    #ask-question h5 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #ask-question h6 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    #ask-question p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 15px;
+    }
+    #ask-question .container .ask_left_content h6 {
+        line-height: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #ask-question .panel-title > a:before {
+        line-height: 40px;
+    }
+    /*    ask question part end*/
+    /*    pricing plan start*/
+    #pricingPlan h5 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #pricingPlan h6 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    #pricingPlan p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 15px;
+    }
+    #pricingPlan .container .priceRate .col-md-3 .pricingBody a {
+        width: 135px;
+    }
+    /*    pricing plan end*/
+    /*    our client part start*/
+    #ourClientPart {
+        padding: 50px 0px;
+        ;
+    }
+    #ourClientPart h5 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    #ourClientPart h6 {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    #ourClientPart p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 15px;
+    }
+    #ourClientPart .container-fluid .row .col-md-4 a {
+        width: 195px;
+        margin-top: 35px;
+    }
+    #ourClientPart .container-fluid .row .col-md-7 .row .col-md-4 .our-client h6 {
+        letter-spacing: 0;
+        line-height: 20px;
+    }
+    /*    our client part end*/
+    /*    contact us part start*/
+    #contactUs {
+        padding: 50px 0px;
+        ;
+    }
+    #contactUs h5 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    #contactUs h6 {}
+    #contactUs p {}
+    #contactUs .container .row .col-md-12 .row .col-md-5 .contact-box {
+        padding: 30px;
+    }
+    #contactUs .container .row .col-md-12 .row .col-md-5 .contact-box h3 {
+        font-size: 24px;
+    }
+    #contactUs .container .row .col-md-12 .row .col-md-5 .contact-box form input,
+    #contactUs .container .row .col-md-12 .row .col-md-5 .contact-box form textarea {
+        margin-bottom: 10px;
+    }
+    #contactUs .container .row .col-md-12 .row .col-md-5 .contact-box form .row a {
+        margin-left: 50%;
+    }
+    #contactUs .container .row .col-md-12 .row .col-md-5 .contact-box form .row .formP1 {
+        padding-top: 15px;
+    }
+    /*    contact us part end*/
+    /*    footer part start*/
+    #footer {
+        padding: 25px 0px;
+    }
+    #footer .container .col-md-8 .footer-logo {
+        padding-bottom: 20px;
+    }
+    #footer .container .col-md-8 .row p {
+        font-size: 14px;
+    }
+    #footer .container .col-md-8 p {
+        font-size: 13px;
+    }
+    #footer .container .col-md-8 .row {
+        padding-bottom: 15px;
+    }
+    /*    footer part end*/
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #header .header-parallax {
+        width: 100%;
+        overflow: hidden;
+
+    }
+    #aboutUs .about-left-part .header-parallax {
+        position: absolute;
+        overflow-y: visible;
+    }
+    /*    header part start*/
+    #header {}
+    #header nav .container .navbar-collapse .social_icons {
+        display: none;
+    }
+    #header .banner-content .row .col-md-7 .banner-Left-Part h1 {
+        font-size: 45px;
+        font-weight: 400;
+        line-height: 57px;
+    }
+    #header .banner-content .row .col-md-7 .banner-Left-Part p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #header .banner-content .row .col-md-5 .iphone-img img {
+        width: 85%;
+        bottom: -10%;
+    }
+    /*    header part end*/
+    /*    about usp part start*/
+    #aboutUs {
+        padding: 50px 0px;
+    }
+    #aboutUs .container .row .col-md-5 .about-left-part .about-mobile-1 {
+        width: 235px;
+        height: 485px;
+        top: 78px;
+        left: 0;
+    }
+    #aboutUs .container .row .col-md-5 .about-left-part .about-mobile-2 {
+        width: 235px;
+        height: 485px;
+        right: 0;
+        top: -20px;
+    }
+    #aboutUs .container .row .col-md-5 .about-left-part .about-mobile-3 {
+        width: 235px;
+        height: 485px;
+        top: 31px;
+    }
+    h6 {
+        font-size: 15px;
+        line-height: 42px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 25px;
+        padding-top: 25px;
+    }
+    /*    parallax*/
+    #aboutUs .about-left-part .header-parallax ul li:nth-child(3) {
+        position: absolute;
+        left: 301px;
+        bottom: -10%;
+    }
+    /*    about usp part end*/
+    /*    client testimonial part */
+    #clientTestimonial {
+        background-size: 300% 100%;
+    }
+    #clientTestimonial .container .col-md-5 .client-testimonial-heading h5 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #clientTestimonial .container .col-md-4 .client-details p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    /*    parallax*/
+    #clientTestimonial .header-parallax ul li:nth-child(3) {
+        position: absolute;
+        left: 120%;
+        top: 5%;
+    }
+    /*    client testimonial end */
+    /*    contact us part start*/
+    #contactUs .container .row .col-md-12 .row .col-md-5 .contact-box form .row a {
+        width: 135px;
+    }
+    #contactUs .container .row .col-md-12 .row .col-md-5 .contact-box form .row .formP2 {
+        font-size: 14px;
+    }
+    /*    contact us part end*/
+    /*    app show case part start*/
+    #AppShowCasePart .appSlider {
+        padding: 50px 0px;
+    }
+    #AppShowCasePart .appSlider .appImg {
+        height: 245px;
+    }
+    #AppShowCasePart .appSlider .appImg img {
+        height: 100%;
+    }
+    #AppShowCasePart .appSlider .slider-frame {
+        height: 116%;
+        top: 50%;
+    }
+    /*    app show case part end*/
+    /*    footer part start*/
+    #footer {
+        padding: 25px 0px;
+    }
+    #footer .container .col-md-8 .footer-logo {
+        padding-bottom: 15px;
+    }
+    #footer .container .col-md-8 .row p {
+        font-size: 13px;
+    }
+    #footer .container .col-md-8 p {
+        font-size: 13px;
+    }
+    #footer .container .col-md-8 .row {
+        padding-bottom: 15px;
+    }
+    /*    footer part end*/
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+
+    /*    header part start*/
+    #header {
+        overflow: hidden;
+    }
+    #header .banner-content .row .col-md-5 .iphone-img img {
+        width: 76%;
+        position: absolute;
+        bottom: -8%;
+    }
+    #header .navbar .container a {
+        font-size: 14px;
+    }
+    #header .navbar .nav {
+        padding-left: 20px;
+    }
+    #header .navbar .nav .nav-item {
+        padding: 0;
+    }
+    #header .navbar .nav .nav-item .nav-link {
+        padding: 10px 10px;
+        font-size: 20px;
+    }
+    #header nav .container .navbar-collapse .social_icons {
+        margin-left: 100px;
+    }
+
+    #header nav .container .navbar-collapse .social_icons ul li {
+        float: left;
+        margin-left: 0px;
+        padding:
+    }
+    #header nav .container .navbar-collapse .social_icons ul li a {
+        margin-left: px;
+        width: 25px;
+        height: 25px;
+    }
+    #header .banner-content .row .col-md-5 .iphone-img img {
+        width: 76%;
+        position: absolute;
+        bottom: -8%;
+    }
+    #header .header-parallax ul li:nth-child(3) {
+
+        display: none;
+    }
+    /*    header part end*/
+    /*    about us part start*/
+    #aboutUs .about-left-part .header-parallax ul li:nth-child(3) {
+        position: absolute;
+        left: 335px;
+        bottom: -10%;
+    }
+    /*    about us part end*/
+    /*    client testimonial part start*/
+    #clientTestimonial .header-parallax ul li:nth-child(3) {
+        left: 118%;
+        top: 5%;
+    }
+    /*    client testimonial part end*/
+}

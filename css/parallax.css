@@ -1,0 +1,281 @@
+#header {
+    position: relative;
+}
+
+#header .header-parallax {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#header .header-parallax ul li:nth-child(1) {
+    position: absolute;
+    right: 10%;
+    top: 0;
+    width: 10%;
+    overflow: hidden;
+}
+
+#header .header-parallax ul li:nth-child(2) {
+    position: absolute;
+    right: 0;
+    top: 60%;
+}
+
+#header .header-parallax ul li:nth-child(3) {
+    position: absolute;
+    right: -50%;
+    top: 0;
+    overflow: hidden;
+}
+
+#header .header-parallax ul li:nth-child(6) {
+    position: absolute;
+    right: 40%;
+    top: 40%;
+    overflow: hidden;
+
+}
+
+#header .header-parallax ul li .tri {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#aboutUs {
+    position: relative;
+}
+
+#aboutUs .about-left-part .about-mobile-1 {
+    z-index: 9999;
+}
+
+#aboutUs .about-left-part .about-mobile-2 {
+    z-index: 9999;
+}
+
+#aboutUs .about-left-part .about-mobile-3 {
+    z-index: 9999;
+}
+
+#aboutUs .about-left-part .header-parallax {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 75%;
+}
+
+#aboutUs .about-left-part .header-parallax ul li:nth-child(1) {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10%;
+}
+
+#aboutUs .about-left-part .header-parallax ul li:nth-child(2) {
+    position: absolute;
+    left: 0;
+    top: 10%;
+}
+
+#aboutUs .about-left-part .header-parallax ul li:nth-child(3) {
+    position: absolute;
+    left: 450px;
+    bottom: -10%;
+}
+
+#aboutUs .about-left-part .header-parallax ul li:nth-child(4) {
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+}
+
+#aboutUs .about-left-part .header-parallax ul li:nth-child(5) {
+    position: absolute;
+    left: 28%;
+    bottom: -10%;
+}
+
+#ourAppPart {
+    position: relative;
+}
+
+#ourAppPart .header-parallax {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#ourAppPart .header-parallax ul li:nth-child(1) {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 10%;
+}
+
+#ourAppPart .header-parallax ul li:nth-child(2) {
+    position: absolute;
+    left: 20%;
+    top: 40%;
+}
+
+#ourAppPart .header-parallax ul li:nth-child(3) {
+    position: absolute;
+    left: 80%;
+    bottom: 20%;
+}
+
+#ourAppPart .header-parallax ul li:nth-child(4) {
+    position: absolute;
+    left: 55%;
+    top: 75%;
+}
+
+#clientTestimonial {
+    position: relative;
+}
+
+#clientTestimonial .header-parallax {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#clientTestimonial .header-parallax ul li:nth-child(1) {
+    position: absolute;
+    left: 0;
+    top: -15px;
+    width: 10%;
+}
+
+#clientTestimonial .header-parallax ul li:nth-child(1) img {
+    transform: rotate(35deg);
+}
+
+#clientTestimonial .header-parallax ul li:nth-child(2) {
+    position: absolute;
+    left: 20%;
+    top: 85%;
+}
+
+#clientTestimonial .header-parallax ul li:nth-child(3) {
+    position: absolute;
+    left: 80%;
+    top: 15%;
+}
+
+#ask-question {
+    position: relative;
+}
+
+#ask-question .header-parallax {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+}
+
+#ask-question .header-parallax ul li:nth-child(1) {
+    position: absolute;
+    left: 85%;
+    top: 30%;
+    width: 20%;
+}
+
+#ask-question .header-parallax ul li:nth-child(1) img {
+    transform: rotate(80deg);
+}
+
+#ask-question .header-parallax ul li:nth-child(2) {
+    position: absolute;
+    left: 60%;
+    top: 85%;
+}
+
+#ask-question .header-parallax ul li:nth-child(2) img {
+    transform: rotate(-10deg);
+}
+
+#ask-question .header-parallax ul li:nth-child(3) {
+    position: absolute;
+    left: 80%;
+    top: 15%;
+}
+
+#ask-question .header-parallax ul li:nth-child(4) {
+    position: absolute;
+    left: 64%;
+    top: 35%;
+}
+
+#ask-question .header-parallax ul li:nth-child(4) img {
+    transform: rotate(-75deg);
+}
+
+#contactUs {
+    position: relative;
+}
+
+#contactUs .header-parallax {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+}
+
+#contactUs .header-parallax ul li:nth-child(1) {
+    position: absolute;
+    left: -20%;
+    top: -8%;
+    width: 20%;
+}
+
+#contactUs .header-parallax ul li:nth-child(1) img {
+    transform: rotate(-10deg);
+}
+
+#contactUs .header-parallax ul li:nth-child(2) {
+    position: absolute;
+    left: 60%;
+    top: 45%;
+}
+
+#contactUs .header-parallax ul li:nth-child(2) img {
+    transform: rotate(21deg);
+}
+
+/*responsive*/
+
+@media screen and( max-width: 320px) {}
+
+@media(min-width:320px) and(max-width:575px) {}
+
+@media(min-width:575px) and(max-width:765px) {}
+
+@media(min-width:765px) and(max-width:990px) {}
+
+@media(min-width:990px) and(max-width:1199px) {}
+
+@media(min-width:1200px) {}
+
+/*
+*
+*
+*
+*
+*
+*
+*
+*/

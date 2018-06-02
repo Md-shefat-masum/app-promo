@@ -1,0 +1,548 @@
+h1 {
+  display: block;
+}
+h2 {
+  display: block;
+}
+h3 {
+  display: block;
+}
+h4 {
+  display: block;
+}
+h5 {
+  display: block;
+  font-family: Montserrat, sans-serif;
+  color: #202020;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 42px;
+}
+h6 {
+  display: block;
+  font-family: Montserrat, sans-serif;
+  color: #87959c;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 42px;
+  text-transform: uppercase;
+}
+p {
+  font-family: WorkSans, sans-serif;
+  color: #5f5f5f;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 30px;
+}
+body {
+  overflow-x: hidden;
+}
+#header {
+  height: 100vh;
+  background: url(../images/header/header-back-ground.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-bottom: 35px;
+}
+#header nav {
+  padding-top: 30px;
+  padding-bottom: 32px;
+}
+#header nav .container {
+  padding: 0;
+}
+#header nav .container .navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-right: 0;
+}
+#header nav .container .navbar-brand img {
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+#header nav .container .navbar-collapse {
+  padding: 0;
+}
+#header nav .container .navbar-collapse .navbar-nav .nav-item .nav-link {
+  font-family: Raleway, sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+#header nav .container .navbar-collapse .social_icons ul {
+  margin-left: 90px;
+}
+#header nav .container .navbar-collapse .social_icons ul li {
+  float: left;
+  margin-left: 30px;
+}
+#header nav .container .navbar-collapse .social_icons ul li a {
+  display: block;
+}
+#header nav .container .navbar-collapse .social_icons ul li a i {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+#header .banner-content .row .col-md-7 {
+  overflow: hidden;
+}
+#header .banner-content .row .col-md-7 .banner-Left-Part h1 {
+  font-family: Montserrat, sans-serif;
+  color: #ffffff;
+  font-size: 67px;
+  font-weight: 400;
+  line-height: 78px;
+  padding-top: 15%;
+  padding-bottom: 26px;
+}
+#header .banner-content .row .col-md-7 .banner-Left-Part p {
+  font-family: WorkSans, sans-serif;
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 46px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+}
+#header .banner-content .row .col-md-7 .banner-Left-Part a {
+  background-color: #ffffff;
+  box-shadow: 0px 6px 7px 0px rgba(87, 30, 131, 0.14);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 50px;
+  font-weight: 400;
+  color: #25b6c2;
+  height: 50px;
+  width: 230px;
+  display: block;
+  text-align: center;
+  border-radius: 25px;
+  text-transform: capitalize;
+}
+#header .banner-content .row .col-md-7 .banner-Left-Part a i {
+  margin-left: 20px;
+}
+#header .banner-content .row .col-md-5 {
+  position: relative;
+  padding: 0;
+}
+#header .banner-content .row .col-md-5 .iphone-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: -15%;
+}
+#header .banner-content .row .col-md-5 .iphone-img img {
+  width: 85%;
+}
+#aboutUs {
+  background: url(../images/about-us/about-left-circle.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20%;
+  position: relative;
+  padding: 100px 0px;
+}
+#aboutUs .container .row .col-md-5 .about-left-part .about-mobile-1 {
+  width: 275px;
+  height: 485px;
+  position: absolute;
+  top: 82px;
+  left: 0;
+}
+#aboutUs .container .row .col-md-5 .about-left-part .about-mobile-2 {
+  width: 275px;
+  height: 485px;
+  right: 0;
+  top: -82px;
+  position: absolute;
+}
+#aboutUs .container .row .col-md-5 .about-left-part .about-mobile-3 {
+  width: 275px;
+  position: absolute;
+  height: 485px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#ourAppPart {
+  background: url(../images/app-service/app-service-background-water-mark.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: right 100%;
+  padding: 100px 0px;
+  background-attachment: scroll;
+}
+#ourAppPart .container .row .col-md-9 .our-app-service-heading {
+  text-align: center;
+}
+#ourAppPart .container .app-content .col-md-6 .app-service-left-img img {
+  margin-top: 25%;
+}
+#ourAppPart .container .app-content .col-md-6 .row .col-6 .app-ser-icon {
+  margin-top: 65px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 125px;
+  width: 125px;
+  background: url(../images/app-service/icon-background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#ourAppPart .container .app-content .col-md-6 .row .col-6 .app-ser-icon img {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#ourAppPart .container .app-content .col-md-6 .row .col-6 .app-ser-body h6 {
+  font-family: Montserrat, sans-serif;
+  color: #202020;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: center;
+}
+#ourAppPart .container .app-content .col-md-6 .row .col-6 .app-ser-body p {
+  font-family: WorkSans, sans-serif;
+  color: #5f5f5f;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  padding-top: 15px;
+}
+#clientTestimonial {
+  background: url(../images/client-testimonial/client-bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 100px 0px;
+}
+#clientTestimonial .container .row .col-4 h6 {
+  color: white;
+}
+#clientTestimonial .container .row .col-4 h5 {
+  color: white;
+}
+#clientTestimonial .container .row .col-md-4 .client-body .client-img {
+  height: 95px;
+  width: 95px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid white;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+#clientTestimonial .container .row .col-md-4 .client-body .client-details {
+  border-radius: 10px;
+  background: white;
+  padding: 25px;
+  padding-top: 35px;
+}
+#clientTestimonial .container .row .col-md-4 .client-body .client-details p {
+  font-style: italic;
+  line-height: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+#clientTestimonial .container .row .col-md-4 .client-body .client-details p:after {
+  position: absolute;
+  height: 2px;
+  width: 70%;
+  background: black;
+  bottom: 0px;
+}
+#clientTestimonial .container .row .col-md-4 .client-body .client-details a {
+  font-family: Montserrat, sans-serif;
+  color: #202020;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.slick-dots {
+  bottom: -50px;
+}
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: #12d3fc;
+}
+.slick-dots li button:before {
+  opacity: .25;
+  color: #b1bac9;
+}
+.slick-dots li button::before {
+  font-size: 15px;
+}
+#AppShowCasePart .appSlider {
+  position: relative;
+  width: 100%;
+  padding: 100px 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+  overflow-x: hidden;
+}
+#AppShowCasePart .appSlider .slider-frame {
+  position: absolute;
+  z-index: 999999;
+  width: 21%;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  bottom: 0;
+  transform: translateX(-50%) translateY(-50%);
+  background: url(../images/app-showcase/app-showcase-frame.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#AppShowCasePart .appSlider .appImg {
+  width: 13%;
+  height: 330px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+#AppShowCasePart .appSlider .appImg img {
+  width: 100%;
+  height: 100%;
+}
+#ask-question {
+  background: url(../images/ask-question/ask-background.png);
+  background-position: bottom left;
+  background-size: 65% 90%;
+  background-repeat: no-repeat;
+  @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+}
+#ask-question .container .ask_left_content {
+  padding: 100px 0px;
+}
+#ask-question .container .ask_left_content h6 {
+  margin: 10px 0px;
+  font-size: 14px;
+  color: #202020;
+  background: white;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.49);
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 50px;
+}
+#ask-question .container .ask_left_content h6:hover {
+  background: url(../images/ask-question/heading-background.jpg);
+  background-size: 100%;
+  color: white;
+}
+#ask-question .container .ask_left_content h6:focus {
+  background: url(../images/ask-question/heading-background.jpg);
+  background-size: 100%;
+  color: white;
+}
+#ask-question .container .ask_left_content h6:active {
+  background: url(../images/ask-question/heading-background.jpg);
+  background-size: 100%;
+  color: white;
+}
+#ask-question .container .ask_left_content p {
+  font-size: 14px;
+  line-height: 30px;
+  color: #5f5f5f;
+  padding: 30px;
+}
+#ask-question .container .ask_right_content {
+  background: url(../images/ask-question/ask-mobile.png);
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding: 90px 0px;
+}
+#ask-question .panel-title > a:before {
+  float: right !important;
+  font-family: FontAwesome;
+  content: "\f068";
+  padding-right: 30px;
+  line-height: 50px;
+  font-size: 14px;
+  z-index: -999;
+}
+#ask-question .panel-title > a.collapsed:before {
+  float: right !important;
+  content: "\f067";
+}
+#ask-question .panel-title > a:hover,
+#ask-question .panel-title > a:active,
+#ask-question .panel-title > a:focus {
+  text-decoration: none;
+  color: white;
+}
+#pricingPlan {
+  background: url(../images/pricing-plan/pricing-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: left;
+  padding: 100px 0px;
+}
+#pricingPlan .container .row h6 {
+  color: white;
+}
+#pricingPlan .container .row h5 {
+  color: white;
+}
+#pricingPlan .container .row p {
+  color: white;
+}
+#pricingPlan .container .priceRate .col-md-3 {
+  margin-top: 70px;
+  border: 1px solid rgba(255, 255, 255, 0.43);
+  padding: 0;
+  text-align: center;
+}
+#pricingPlan .container .priceRate .col-md-3 .pricingBody {
+  padding: 60px 0px;
+}
+#pricingPlan .container .priceRate .col-md-3 .pricingBody h6 {
+  font-size: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.43);
+  line-height: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#pricingPlan .container .priceRate .col-md-3 .pricingBody .midpart .price {
+  font-size: 40px;
+  line-height: 40px;
+  padding: 15px 0px;
+  font-weight: bold;
+}
+#pricingPlan .container .priceRate .col-md-3 .pricingBody .midpart .per-month {
+  font-size: 15px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.43);
+  line-height: 15px;
+}
+#pricingPlan .container .priceRate .col-md-3 .pricingBody .p1 {
+  padding-top: 61px;
+  padding-bottom: 20px;
+}
+#pricingPlan .container .priceRate .col-md-3 .pricingBody .p2 {
+  padding-bottom: 20px;
+}
+#pricingPlan .container .priceRate .col-md-3 .pricingBody p {
+  font-size: 16px;
+  padding: 0;
+  line-height: 16px;
+  text-transform: capitalize;
+}
+#pricingPlan .container .priceRate .col-md-3 .pricingBody a {
+  color: white;
+  display: block;
+  padding: 0;
+  width: 160px;
+  height: 45px;
+  line-height: 40px;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid white;
+  border-radius: 25px;
+  text-transform: capitalize;
+}
+#pricingPlan .container .priceRate .col-md-3 .pricingBody:hover {
+  background: white;
+}
+#pricingPlan .container .priceRate .col-md-3 .pricingBody:hover h6 {
+  color: #5d3c86;
+}
+#pricingPlan .container .priceRate .col-md-3 .pricingBody:hover .p1 {
+  color: #7e7e7e;
+}
+#pricingPlan .container .priceRate .col-md-3 .pricingBody:hover .p2 {
+  color: #7e7e7e;
+}
+#pricingPlan .container .priceRate .col-md-3 .pricingBody:hover .midpart {
+  background: url(../images/pricing-plan/pricing-hover.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#pricingPlan .container .priceRate .col-md-3 .pricingBody:hover a {
+  background: url(../images/pricing-plan/pricing-hover.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#ourClientPart {
+  padding: 100px 0px;
+}
+#ourClientPart .container-fluid .row .col-md-7 .row .col-md-4 {
+  padding: 15px;
+}
+#ourClientPart .container-fluid .row .col-md-7 .row .col-md-4 .our-client {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.54);
+  padding: 20px;
+}
+#ourClientPart .container-fluid .row .col-md-7 .row .col-md-4 .our-client img {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+#ourClientPart .container-fluid .row .col-md-7 .row .col-md-4 .our-client h6 {
+  font-size: 15px;
+  line-height: 15px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: black;
+}
+#ourClientPart .container-fluid .row .col-md-7 .row .col-md-4 .our-client p {
+  font-size: 13px;
+  line-height: 20px;
+  padding: 0;
+}
+#ourClientPart .container-fluid .row .col-md-7 .row .col-md-4 .our-client p span {
+  font-style: italic;
+  display: block;
+}
+#ourClientPart .container-fluid .row .col-md-4 {
+  padding-left: 4%;
+}
+#ourClientPart .container-fluid .row .col-md-4 h6 {
+  padding-top: 30px;
+}
+#ourClientPart .container-fluid .row .col-md-4 a {
+  margin-top: 50px;
+  background-color: #ffffff;
+  background: url(../images/pricing-plan/pricing-hover.png);
+  box-shadow: 0px 6px 7px 0px rgba(87, 30, 131, 0.14);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 50px;
+  font-weight: 400;
+  color: #ffffff;
+  height: 50px;
+  width: 230px;
+  display: block;
+  text-align: center;
+  border-radius: 25px;
+  text-transform: capitalize;
+}
+#ourClientPart .container-fluid .row .col-md-4 a i {
+  margin-left: 20px;
+}
+/*
+*
+*
+*
+*
+*
+*
+*/

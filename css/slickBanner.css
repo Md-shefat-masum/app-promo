@@ -1,0 +1,52 @@
+.slick-dots li button::before {
+    font-size: 15px;
+}
+.slick-dots{
+	bottom: 26px;
+}
+
+#Banner {
+    position: relative;
+}
+
+.slideButton {
+    position: absolute;
+    top: 50%;
+    height: 30px;
+    transform: translate(0, -50%);
+    width: 100%;
+    opacity: 0;
+}
+
+#Banner:hover .slideButton {
+    opacity: 1;
+	color: red;
+}
+
+.slideButton .slidPrv {
+    margin-left: 10px;
+}
+
+.slideButton .slidNext {
+    cursor: pointer;
+    right: 16px;
+}
+
+.slideButton .slidPrv,
+.slideButton .slidNext {
+    background: transparent;
+    border: 0;
+    position: absolute;
+    top: 0;
+	color: gray;
+}
+
+.slideButton .slidPrv .fa,
+.slideButton .slidNext .fa {
+    font-size: 30px;
+}
+
+.slideButton .slidPrv:hover .fa,
+.slideButton .slidNext:hover .fa {
+    color: white;
+}

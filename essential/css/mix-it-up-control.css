@@ -1,0 +1,19 @@
+/*gallery*/
+
+.controls ul li {
+    display: inline-block;
+    cursor: pointer;
+    padding: 12px 14px;
+    font-weight: 700;
+    color: #7B7B7B;
+    margin: 0px 10px;
+}
+
+.controls ul li:hover {
+    color: #164E71;
+}
+
+.mixitup-control-active {
+    background: #fff;
+    box-shadow: 0px 0px 10px #9f9f9f;
+}
